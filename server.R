@@ -14,7 +14,7 @@ library(plyr)
 
 new_dataset <- read.csv(
 #    "https://raw.githubusercontent.com/JonMinton/Population_Age_Residuals/master/Data/Tidy/counts.csv"
-  "E:/repos/Population_Age_Residuals/Data/Tidy/counts.csv"
+  "data/counts.csv"
 )
 
 

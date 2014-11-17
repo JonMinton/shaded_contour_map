@@ -14,7 +14,7 @@ library(plyr)
 
 new_dataset <- read.csv(
 #  "https://raw.githubusercontent.com/JonMinton/Population_Age_Residuals/master/Data/Tidy/counts.csv"
-  "E:/repos/Population_Age_Residuals/Data/Tidy/counts.csv"
+  "data/counts.csv"
   )
 new_dataset <- mutate(new_dataset, death_rate = death_count/population_count)
 
